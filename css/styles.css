@@ -1,0 +1,242 @@
+.container-fluid{
+    height: 100vh;
+    background-color: white;
+    background-image: url(/img/5fotocarousel.jpg);
+}
+.col{
+    background-color: grey;
+}
+.row{
+    background-color: white;
+}
+.bizq{
+    height: 81.4em;
+}
+.img-thumbnail{
+    height: 8em;
+}
+/*
+    Contacto de la pagina principal
+*/
+.contacto{
+    background-color: rgb(57, 66, 95);
+    height: 20em;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    z-index: 2;
+}
+.primero{
+    text-align: justify;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.p-2{
+    width: 15em;
+}
+.txt{
+    font-size: 1em;
+    color:white;
+}
+/*__________________________________________________*/
+.navbar{
+    background-color: rgb(57, 66, 95);
+    height: 6em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    z-index: 2;
+}
+/*
+
+CUERPO DE LA PAGINA
+
+*/
+.cuerpopagina{
+    height: 48em;
+    font-size: 1.3em;
+    background-color: white;
+    text-align: center;
+
+}
+.cuerpopaginavinos{
+    height: 102em;
+   
+}
+.cuerpopaginacontacto{
+    height: 50em;
+   
+}
+.botones{
+    margin-left: 1em;
+    font-size: 1.1em;
+    color:white;
+}
+img{
+    width: 70.6em;
+}
+.parrafos{
+    color:black;
+    font-size: 1em;
+    text-align: justify;
+    padding: 1em;
+}
+.barraslaterales{
+    background-color: rgba(19, 76, 109, 0.164);
+    z-index: -1;
+}
+
+/*
+    AKI EMPIEZA LA CARTA 2º PAGINA
+*/
+.carta{
+    background-color: white;
+    height: 170em;
+}
+.paddingtexto{
+    padding: 1em;
+}
+.d-block{
+    height: 25em;
+}
+.parrafocarta{
+    text-align: left;
+}
+/*
+
+BARRAS LATERALES VINOS
+
+*/
+.vinosp{
+    height: 20em;
+    width: 40em;
+}
+.barraslateralesv{
+    background-color: white;
+}
+.parrafosvinos{
+    padding: 1em;
+    text-align: justify;
+}
+.titulosvinos{
+    text-align: inherit;
+    text-align: left;
+    font-style: italic;
+}
+.rojat{
+    color:red;
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10em;
+    width: 30em;
+}
+#insta{
+    width: 5em;
+    height: 5em;
+    background-color: black;
+}
+#facebook{
+    width: 5em;
+    height: 5em;
+    background-color: black;
+}
+/*
+    MODIFICACION PAGINAS RESPONSIVE
+*/
+
+@media screen and (max-width:600px){
+    .vinosp {
+    width: 100%;
+    height: 35%;
+    }
+    .cuerpopaginai{
+        height: 40%;
+    }
+    .navbar{
+    height: 5%;
+    }
+    .navbari{
+        height: 12%;
+        }
+    .navbarv{
+        height: 4%;
+    }
+    .navbarco{
+        height: 20%;
+    }
+    .navbarc{
+        height: 12%;
+    }
+    .barraabajoi{
+        height: 55%;
+        font-size: 0.8em;
+    }
+    .textoc1{
+        visibility: hidden;
+    }
+    .contactovinos{
+        height: 55%;
+        font-size: 0.8em;
+    }
+    .contacto2{
+        height: 55%;
+        font-size:0.8em;
+    }
+
+}
+/*
+    PAGINA CARTA MODIFICAR CAROUSEL
+*/
+@media screen and (max-width:1000px){
+    .carouselr{
+        width: 100%;
+    }
+    .parrafos2{
+        height: 30%;
+    }
+    .cuerpopaginac{
+        height: 2%;
+    }
+    .navbarc{
+        height: 2%;
+    }
+    .imagencarou{
+        height: 3%;
+    }
+    .cuerpopaginacontacto{
+        height: 40%;
+    }
+    .contactocarta{
+        font-size:0.8em;
+        height: 55%;
+    }
+    .imagencontacto{
+        height: 20%;
+        width: 70%;
+    }
+    .textoc1{
+        visibility: hidden;
+    }
+
+}
+
+/*
+    TEXTO PAGINA CARTA RESPONSIVE
+*/
+@media screen and (max-width:1710px){
+    .cuerpopaginac{
+        height:50%;
+    }
+    .cuerpopaginavinos{
+        height: 50%;
+    }
+}
