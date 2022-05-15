@@ -1,7 +1,7 @@
 .container-fluid{
     height: 100vh;
     background-color: white;
-    background-image: url(/img/5fotocarousel.jpg);
+    background-image: url(/proyectowebrestaurante/img/5fotocarousel.jpg);
 }
 .col{
     background-color: grey;
